@@ -5,7 +5,7 @@
 #include <stdio.h>
 #define BUF_SIZE 16384  /* Optimal in several experiments. Small values such as 256 give very bad performance */
 
-int main(int argc, LPTSTR *argv[])
+int main (int argc, LPTSTR argv []) 
 {
 	HANDLE hIn, hOut;
 	DWORD nIn, nOut;
