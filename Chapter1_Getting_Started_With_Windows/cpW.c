@@ -12,7 +12,7 @@ int main (int argc, LPTSTR argv [])
 	CHAR buffer [BUF_SIZE];
 	if (argc != 3)
 	{
-		fprintf(stderr, "Useage: cp file1 file2\n", );
+		fprintf(stderr, "Useage: cp file1 file2\n" );
 		return 1;
 	}
 	hIn = CreateFile (argv[1], GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
